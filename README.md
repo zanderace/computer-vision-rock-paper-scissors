@@ -7,20 +7,27 @@ This project is designed to play a game of rock paper and scissors.
 The model was built and trained on the following website (https://teachablemachine.withgoogle.com/train/image). Using a webcam, the model was trained for four class types: Rock, Paper, Scissors and none. For each class, 100 images were captured. The set of images below shows an example from each class
 
 ###Rock - Fully closed fist
-
-![](/images/rock.png)
+<p align="center">
+    <img src = '/images/rock.png'>
+</p>
 
 ###Paper - Flat outstretched hand with fingers together
 
-![](/images/paper.png)
+<p align="center">
+    <img src = '/images/paper.png'>
+</p>
 
 ###Scissors - Index and middle finger out with a gap between
 
-![](/images/scissors.png)
+<p align="center">
+    <img src = '/images/scissors.png'>
+</p>
 
 ###Nothing - none of the gestures above
 
-![](/images/nothing.png)
+<p align="center">
+    <img src = '/images/nothing.png'>
+</p>
 
 These images were then fed in to the model training algorithim, with the following settings:
 
